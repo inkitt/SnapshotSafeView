@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
 
   spec.source = { :git => "https://github.com/inkitt/SnapshotSafeView.git", :tag => "#{spec.version}" }
 
-  spec.source_files = "Source/SnapshotSafeView/**/*"
+  spec.source_files = "Sources/SnapshotSafeView/**/*"
 
 end
