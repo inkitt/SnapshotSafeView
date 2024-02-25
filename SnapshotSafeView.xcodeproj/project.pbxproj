@@ -1,845 +1,656 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_38";
-         projectDirPath = ".";
-         targets = (
-            "snapshotsafeview::SnapshotSafeView",
-            "snapshotsafeview::SwiftPMPackageDescription",
-            "snapshotsafeview::SnapshotSafeViewPackageTests::ProductTarget",
-            "snapshotsafeview::SnapshotSafeViewTests"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "HiddenContainerRecognizer.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotInvincibleContainer.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotProtectController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_13" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_14"
-         );
-         name = "Library";
-         path = "Library";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXFileReference";
-         path = "UIView+SnapshotSafeController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_15" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_16"
-         );
-         name = "Multiplatform";
-         path = "Multiplatform";
-         sourceTree = "<group>";
-      };
-      "OBJ_16" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_17"
-         );
-         name = "Flutter";
-         path = "Flutter";
-         sourceTree = "<group>";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "SnapshotSafeViewFlutterInterceptor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_18" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_19"
-         );
-         name = "MultiplatformBridgeView";
-         path = "MultiplatformBridgeView";
-         sourceTree = "<group>";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "MultiplatformBridgeView.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_21",
-            "OBJ_22"
-         );
-         name = "Protocols";
-         path = "Protocols";
-         sourceTree = "<group>";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotInvincibleContainerProtocol.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_22" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotProtectControllerProtocol.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_23" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_24",
-            "OBJ_28",
-            "OBJ_29"
-         );
-         name = "RootControllerInterceptor";
-         path = "RootControllerInterceptor";
-         sourceTree = "<group>";
-      };
-      "OBJ_24" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_25",
-            "OBJ_27"
-         );
-         name = "RootControllerExpectation";
-         path = "RootControllerExpectation";
-         sourceTree = "<group>";
-      };
-      "OBJ_25" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_26"
-         );
-         name = "Flutter";
-         path = "Flutter";
-         sourceTree = "<group>";
-      };
-      "OBJ_26" = {
-         isa = "PBXFileReference";
-         path = "FlutterExpectation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_27" = {
-         isa = "PBXFileReference";
-         path = "RootControllerExpectation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "RootControllerInterceptor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_29" = {
-         isa = "PBXFileReference";
-         path = "RootControllerInterceptorProtocol.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_31",
-            "OBJ_32",
-            "OBJ_33"
-         );
-         name = "SwiftUIBridge";
-         path = "SwiftUIBridge";
-         sourceTree = "<group>";
-      };
-      "OBJ_31" = {
-         isa = "PBXFileReference";
-         path = "SnaphotSafeViewSwiftUIBridge.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "SnaphotSafeViewSwiftUIBridgeProtocol.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_33" = {
-         isa = "PBXFileReference";
-         path = "View+SnaphotSafeViewSwiftUIBridge.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_34" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_35"
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_35" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_36"
-         );
-         name = "SnapshotSafeViewTests";
-         path = "Tests/SnapshotSafeViewTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_36" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_37"
-         );
-         name = "RootControllerInterceptorTests";
-         path = "RootControllerInterceptorTests";
-         sourceTree = "<group>";
-      };
-      "OBJ_37" = {
-         isa = "PBXFileReference";
-         path = "RootControllerInterceptorTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_38" = {
-         isa = "PBXGroup";
-         children = (
-            "snapshotsafeview::SnapshotSafeView::Product",
-            "snapshotsafeview::SnapshotSafeViewTests::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_41" = {
-         isa = "PBXFileReference";
-         path = "Documentation";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "Crossplatform";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_43" = {
-         isa = "PBXFileReference";
-         path = "Resources";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_44" = {
-         isa = "PBXFileReference";
-         path = "SwiftGen";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_45" = {
-         isa = "PBXFileReference";
-         path = "LICENSE";
-         sourceTree = "<group>";
-      };
-      "OBJ_46" = {
-         isa = "PBXFileReference";
-         path = "SnapshotSafeView.podspec";
-         sourceTree = "<group>";
-      };
-      "OBJ_47" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_49" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_50",
-            "OBJ_51"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_34",
-            "OBJ_38",
-            "OBJ_41",
-            "OBJ_42",
-            "OBJ_43",
-            "OBJ_44",
-            "OBJ_45",
-            "OBJ_46",
-            "OBJ_47"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_50" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "SnapshotSafeView.xcodeproj/SnapshotSafeView_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SnapshotSafeView";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "SnapshotSafeView";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_51" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "SnapshotSafeView.xcodeproj/SnapshotSafeView_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SnapshotSafeView";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "SnapshotSafeView";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_52" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56",
-            "OBJ_57",
-            "OBJ_58",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64",
-            "OBJ_65",
-            "OBJ_66",
-            "OBJ_67"
-         );
-      };
-      "OBJ_53" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_54" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_55" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
-      };
-      "OBJ_56" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
-      };
-      "OBJ_57" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
-      };
-      "OBJ_58" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
-      };
-      "OBJ_59" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_22";
-      };
-      "OBJ_61" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
-      };
-      "OBJ_62" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
-      };
-      "OBJ_63" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
-      };
-      "OBJ_64" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
-      };
-      "OBJ_65" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_31";
-      };
-      "OBJ_66" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_67" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
-      };
-      "OBJ_68" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8"
-         );
-         name = "Sources";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_70" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_71",
-            "OBJ_72"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_71" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
-               "-package-description-version",
-               "5.5.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_72" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
-               "-package-description-version",
-               "5.5.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_73" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_74"
-         );
-      };
-      "OBJ_74" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_76" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_77",
-            "OBJ_78"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_77" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_78" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_79" = {
-         isa = "PBXTargetDependency";
-         target = "snapshotsafeview::SnapshotSafeViewTests";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9",
-            "OBJ_13",
-            "OBJ_15",
-            "OBJ_18",
-            "OBJ_20",
-            "OBJ_23",
-            "OBJ_30"
-         );
-         name = "SnapshotSafeView";
-         path = "Sources/SnapshotSafeView";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_81" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_82",
-            "OBJ_83"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_82" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "SnapshotSafeView.xcodeproj/SnapshotSafeViewTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "SnapshotSafeViewTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_83" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "SnapshotSafeView.xcodeproj/SnapshotSafeViewTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "SnapshotSafeViewTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Release";
-      };
-      "OBJ_84" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_85"
-         );
-      };
-      "OBJ_85" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
-      };
-      "OBJ_86" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_87"
-         );
-      };
-      "OBJ_87" = {
-         isa = "PBXBuildFile";
-         fileRef = "snapshotsafeview::SnapshotSafeView::Product";
-      };
-      "OBJ_88" = {
-         isa = "PBXTargetDependency";
-         target = "snapshotsafeview::SnapshotSafeView";
-      };
-      "OBJ_9" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_10",
-            "OBJ_11",
-            "OBJ_12"
-         );
-         name = "Core";
-         path = "Core";
-         sourceTree = "<group>";
-      };
-      "snapshotsafeview::SnapshotSafeView" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_49";
-         buildPhases = (
-            "OBJ_52",
-            "OBJ_68"
-         );
-         dependencies = (
-         );
-         name = "SnapshotSafeView";
-         productName = "SnapshotSafeView";
-         productReference = "snapshotsafeview::SnapshotSafeView::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "snapshotsafeview::SnapshotSafeView::Product" = {
-         isa = "PBXFileReference";
-         path = "SnapshotSafeView.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "snapshotsafeview::SnapshotSafeViewPackageTests::ProductTarget" = {
-         isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_76";
-         buildPhases = (
-         );
-         dependencies = (
-            "OBJ_79"
-         );
-         name = "SnapshotSafeViewPackageTests";
-         productName = "SnapshotSafeViewPackageTests";
-      };
-      "snapshotsafeview::SnapshotSafeViewTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_81";
-         buildPhases = (
-            "OBJ_84",
-            "OBJ_86"
-         );
-         dependencies = (
-            "OBJ_88"
-         );
-         name = "SnapshotSafeViewTests";
-         productName = "SnapshotSafeViewTests";
-         productReference = "snapshotsafeview::SnapshotSafeViewTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "snapshotsafeview::SnapshotSafeViewTests::Product" = {
-         isa = "PBXFileReference";
-         path = "SnapshotSafeViewTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "snapshotsafeview::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_70";
-         buildPhases = (
-            "OBJ_73"
-         );
-         dependencies = (
-         );
-         name = "SnapshotSafeViewPackageDescription";
-         productName = "SnapshotSafeViewPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"snapshotsafeview::SnapshotSafeViewPackageTests::ProductTarget" /* SnapshotSafeViewPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXAggregateTarget "SnapshotSafeViewPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_79 /* PBXTargetDependency */,
+			);
+			name = SnapshotSafeViewPackageTests;
+			productName = SnapshotSafeViewPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_53 /* HiddenContainerRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* HiddenContainerRecognizer.swift */; };
+		OBJ_54 /* ScreenshotInvincibleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ScreenshotInvincibleContainer.swift */; };
+		OBJ_55 /* ScreenshotProtectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ScreenshotProtectController.swift */; };
+		OBJ_56 /* UIView+SnapshotSafeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* UIView+SnapshotSafeController.swift */; };
+		OBJ_57 /* SnapshotSafeViewFlutterInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* SnapshotSafeViewFlutterInterceptor.swift */; };
+		OBJ_58 /* MultiplatformBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* MultiplatformBridgeView.swift */; };
+		OBJ_59 /* ScreenshotInvincibleContainerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ScreenshotInvincibleContainerProtocol.swift */; };
+		OBJ_60 /* ScreenshotProtectControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ScreenshotProtectControllerProtocol.swift */; };
+		OBJ_61 /* FlutterExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* FlutterExpectation.swift */; };
+		OBJ_62 /* RootControllerExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* RootControllerExpectation.swift */; };
+		OBJ_63 /* RootControllerInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* RootControllerInterceptor.swift */; };
+		OBJ_64 /* RootControllerInterceptorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* RootControllerInterceptorProtocol.swift */; };
+		OBJ_65 /* SnaphotSafeViewSwiftUIBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SnaphotSafeViewSwiftUIBridge.swift */; };
+		OBJ_66 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift */; };
+		OBJ_67 /* View+SnaphotSafeViewSwiftUIBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* View+SnaphotSafeViewSwiftUIBridge.swift */; };
+		OBJ_74 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_85 /* RootControllerInterceptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* RootControllerInterceptorTests.swift */; };
+		OBJ_87 /* SnapshotSafeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "snapshotsafeview::SnapshotSafeView::Product" /* SnapshotSafeView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB5DFA82B8BF99B00139278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "snapshotsafeview::SnapshotSafeView";
+			remoteInfo = SnapshotSafeView;
+		};
+		CEB5DFA92B8BF99C00139278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "snapshotsafeview::SnapshotSafeViewTests";
+			remoteInfo = SnapshotSafeViewTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* HiddenContainerRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenContainerRecognizer.swift; sourceTree = "<group>"; };
+		OBJ_11 /* ScreenshotInvincibleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotInvincibleContainer.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ScreenshotProtectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotProtectController.swift; sourceTree = "<group>"; };
+		OBJ_14 /* UIView+SnapshotSafeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SnapshotSafeController.swift"; sourceTree = "<group>"; };
+		OBJ_17 /* SnapshotSafeViewFlutterInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotSafeViewFlutterInterceptor.swift; sourceTree = "<group>"; };
+		OBJ_19 /* MultiplatformBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformBridgeView.swift; sourceTree = "<group>"; };
+		OBJ_21 /* ScreenshotInvincibleContainerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotInvincibleContainerProtocol.swift; sourceTree = "<group>"; };
+		OBJ_22 /* ScreenshotProtectControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotProtectControllerProtocol.swift; sourceTree = "<group>"; };
+		OBJ_26 /* FlutterExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterExpectation.swift; sourceTree = "<group>"; };
+		OBJ_27 /* RootControllerExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootControllerExpectation.swift; sourceTree = "<group>"; };
+		OBJ_28 /* RootControllerInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootControllerInterceptor.swift; sourceTree = "<group>"; };
+		OBJ_29 /* RootControllerInterceptorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootControllerInterceptorProtocol.swift; sourceTree = "<group>"; };
+		OBJ_31 /* SnaphotSafeViewSwiftUIBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaphotSafeViewSwiftUIBridge.swift; sourceTree = "<group>"; };
+		OBJ_32 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaphotSafeViewSwiftUIBridgeProtocol.swift; sourceTree = "<group>"; };
+		OBJ_33 /* View+SnaphotSafeViewSwiftUIBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SnaphotSafeViewSwiftUIBridge.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* RootControllerInterceptorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootControllerInterceptorTests.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		OBJ_42 /* Crossplatform */ = {isa = PBXFileReference; lastKnownFileType = text; path = Crossplatform; sourceTree = SOURCE_ROOT; };
+		OBJ_43 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
+		OBJ_44 /* SwiftGen */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftGen; sourceTree = SOURCE_ROOT; };
+		OBJ_45 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_46 /* SnapshotSafeView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SnapshotSafeView.podspec; sourceTree = "<group>"; };
+		OBJ_47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"snapshotsafeview::SnapshotSafeView::Product" /* SnapshotSafeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapshotSafeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"snapshotsafeview::SnapshotSafeViewTests::Product" /* SnapshotSafeViewTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnapshotSafeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_87 /* SnapshotSafeView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_13 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* UIView+SnapshotSafeController.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Multiplatform */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* Flutter */,
+			);
+			path = Multiplatform;
+			sourceTree = "<group>";
+		};
+		OBJ_16 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* SnapshotSafeViewFlutterInterceptor.swift */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* MultiplatformBridgeView */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* MultiplatformBridgeView.swift */,
+			);
+			path = MultiplatformBridgeView;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* ScreenshotInvincibleContainerProtocol.swift */,
+				OBJ_22 /* ScreenshotProtectControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		OBJ_23 /* RootControllerInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* RootControllerExpectation */,
+				OBJ_28 /* RootControllerInterceptor.swift */,
+				OBJ_29 /* RootControllerInterceptorProtocol.swift */,
+			);
+			path = RootControllerInterceptor;
+			sourceTree = "<group>";
+		};
+		OBJ_24 /* RootControllerExpectation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* Flutter */,
+				OBJ_27 /* RootControllerExpectation.swift */,
+			);
+			path = RootControllerExpectation;
+			sourceTree = "<group>";
+		};
+		OBJ_25 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* FlutterExpectation.swift */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		OBJ_30 /* SwiftUIBridge */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* SnaphotSafeViewSwiftUIBridge.swift */,
+				OBJ_32 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift */,
+				OBJ_33 /* View+SnaphotSafeViewSwiftUIBridge.swift */,
+			);
+			path = SwiftUIBridge;
+			sourceTree = "<group>";
+		};
+		OBJ_34 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* SnapshotSafeViewTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_35 /* SnapshotSafeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* RootControllerInterceptorTests */,
+			);
+			name = SnapshotSafeViewTests;
+			path = Tests/SnapshotSafeViewTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_36 /* RootControllerInterceptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* RootControllerInterceptorTests.swift */,
+			);
+			path = RootControllerInterceptorTests;
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"snapshotsafeview::SnapshotSafeView::Product" /* SnapshotSafeView.framework */,
+				"snapshotsafeview::SnapshotSafeViewTests::Product" /* SnapshotSafeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_34 /* Tests */,
+				OBJ_38 /* Products */,
+				OBJ_41 /* Documentation */,
+				OBJ_42 /* Crossplatform */,
+				OBJ_43 /* Resources */,
+				OBJ_44 /* SwiftGen */,
+				OBJ_45 /* LICENSE */,
+				OBJ_46 /* SnapshotSafeView.podspec */,
+				OBJ_47 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SnapshotSafeView */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SnapshotSafeView */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Core */,
+				OBJ_13 /* Library */,
+				OBJ_15 /* Multiplatform */,
+				OBJ_18 /* MultiplatformBridgeView */,
+				OBJ_20 /* Protocols */,
+				OBJ_23 /* RootControllerInterceptor */,
+				OBJ_30 /* SwiftUIBridge */,
+			);
+			name = SnapshotSafeView;
+			path = Sources/SnapshotSafeView;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* HiddenContainerRecognizer.swift */,
+				OBJ_11 /* ScreenshotInvincibleContainer.swift */,
+				OBJ_12 /* ScreenshotProtectController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"snapshotsafeview::SnapshotSafeView" /* SnapshotSafeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "SnapshotSafeView" */;
+			buildPhases = (
+				OBJ_52 /* Sources */,
+				OBJ_68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapshotSafeView;
+			productName = SnapshotSafeView;
+			productReference = "snapshotsafeview::SnapshotSafeView::Product" /* SnapshotSafeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"snapshotsafeview::SnapshotSafeViewTests" /* SnapshotSafeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "SnapshotSafeViewTests" */;
+			buildPhases = (
+				OBJ_84 /* Sources */,
+				OBJ_86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_88 /* PBXTargetDependency */,
+			);
+			name = SnapshotSafeViewTests;
+			productName = SnapshotSafeViewTests;
+			productReference = "snapshotsafeview::SnapshotSafeViewTests::Product" /* SnapshotSafeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"snapshotsafeview::SwiftPMPackageDescription" /* SnapshotSafeViewPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "SnapshotSafeViewPackageDescription" */;
+			buildPhases = (
+				OBJ_73 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapshotSafeViewPackageDescription;
+			productName = SnapshotSafeViewPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SnapshotSafeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"snapshotsafeview::SnapshotSafeView" /* SnapshotSafeView */,
+				"snapshotsafeview::SwiftPMPackageDescription" /* SnapshotSafeViewPackageDescription */,
+				"snapshotsafeview::SnapshotSafeViewPackageTests::ProductTarget" /* SnapshotSafeViewPackageTests */,
+				"snapshotsafeview::SnapshotSafeViewTests" /* SnapshotSafeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_53 /* HiddenContainerRecognizer.swift in Sources */,
+				OBJ_54 /* ScreenshotInvincibleContainer.swift in Sources */,
+				OBJ_55 /* ScreenshotProtectController.swift in Sources */,
+				OBJ_56 /* UIView+SnapshotSafeController.swift in Sources */,
+				OBJ_57 /* SnapshotSafeViewFlutterInterceptor.swift in Sources */,
+				OBJ_58 /* MultiplatformBridgeView.swift in Sources */,
+				OBJ_59 /* ScreenshotInvincibleContainerProtocol.swift in Sources */,
+				OBJ_60 /* ScreenshotProtectControllerProtocol.swift in Sources */,
+				OBJ_61 /* FlutterExpectation.swift in Sources */,
+				OBJ_62 /* RootControllerExpectation.swift in Sources */,
+				OBJ_63 /* RootControllerInterceptor.swift in Sources */,
+				OBJ_64 /* RootControllerInterceptorProtocol.swift in Sources */,
+				OBJ_65 /* SnaphotSafeViewSwiftUIBridge.swift in Sources */,
+				OBJ_66 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift in Sources */,
+				OBJ_67 /* View+SnaphotSafeViewSwiftUIBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_74 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_85 /* RootControllerInterceptorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "snapshotsafeview::SnapshotSafeViewTests" /* SnapshotSafeViewTests */;
+			targetProxy = CEB5DFA92B8BF99C00139278 /* PBXContainerItemProxy */;
+		};
+		OBJ_88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "snapshotsafeview::SnapshotSafeView" /* SnapshotSafeView */;
+			targetProxy = CEB5DFA82B8BF99B00139278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SnapshotSafeView.xcodeproj/SnapshotSafeView_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SnapshotSafeView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SnapshotSafeView;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SnapshotSafeView.xcodeproj/SnapshotSafeView_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SnapshotSafeView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SnapshotSafeView;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SnapshotSafeView.xcodeproj/SnapshotSafeViewTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SnapshotSafeViewTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SnapshotSafeView.xcodeproj/SnapshotSafeViewTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SnapshotSafeViewTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "SnapshotSafeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_49 /* Build configuration list for PBXNativeTarget "SnapshotSafeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_50 /* Debug */,
+				OBJ_51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_70 /* Build configuration list for PBXNativeTarget "SnapshotSafeViewPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_76 /* Build configuration list for PBXAggregateTarget "SnapshotSafeViewPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_81 /* Build configuration list for PBXNativeTarget "SnapshotSafeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_82 /* Debug */,
+				OBJ_83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }
